@@ -1,7 +1,7 @@
 public  class Node<T>{
     T data;
-    Node next;
-    Node previous;
+    Node<T> next;
+    Node<T> previous;
 
     public Node(T data) {
 
@@ -26,7 +26,10 @@ public  class Node<T>{
         return this.previous;
     }
 
-    public String getData() {
+    public T getData(){
+        return this.data;
+    }
+    public String display() {
 
         if(this.data==null)
             return "No data here";

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfc86408-f2af-4265-8508-6ed6a126ae3a" name="Default Changelist" comment="" />
+    <list default="true" id="cfc86408-f2af-4265-8508-6ed6a126ae3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,22 +17,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state relative-caret-position="191">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
                 <element signature="method#removeFirst#0;class#LinkedList#0" />
                 <element signature="method#removeLast#0;class#LinkedList#0" />
-                <element signature="method#isEmpty#0;class#LinkedList#0" />
+                <element signature="e#1738#1739#0" expanded="true" />
+                <element signature="method#removeSame#0;class#LinkedList#0" />
               </folding>
             </state>
           </provider>
@@ -34,8 +41,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="193">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/LLArrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="26" lean-forward="true" selection-end-line="48" />
+              <caret line="26" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -57,6 +70,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -72,6 +88,7 @@
     <option name="width" value="684" />
     <option name="height" value="768" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -99,10 +116,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570806398904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex1" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,12 +160,13 @@
       <option name="presentableId" value="Default" />
       <updated>1570796523790</updated>
       <workItem from="1570811457514" duration="1517000" />
-      <workItem from="1571049333367" duration="5331000" />
+      <workItem from="1571049333367" duration="6455000" />
+      <workItem from="1571060188666" duration="4663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6848000" />
+    <option name="totallyTimeSpent" value="12635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="768" extended-state="6" />
@@ -192,27 +212,34 @@
     <entry file="file://$PROJECT_DIR$/src/LLArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="26" lean-forward="true" selection-end-line="48" />
+          <caret line="26" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="193">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="122" column="16" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        <state relative-caret-position="191">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
           <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
             <element signature="method#removeFirst#0;class#LinkedList#0" />
             <element signature="method#removeLast#0;class#LinkedList#0" />
-            <element signature="method#isEmpty#0;class#LinkedList#0" />
+            <element signature="e#1738#1739#0" expanded="true" />
+            <element signature="method#removeSame#0;class#LinkedList#0" />
           </folding>
         </state>
       </provider>
