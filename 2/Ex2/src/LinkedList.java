@@ -149,14 +149,20 @@ public class LinkedList<T>{
         st.add(8);
         st.add(7);
         st.add(6);
-        st.add(5);
-        st.add(4);
+        st.add(43);
+        st.add(23);
         st.add(3);
         st.add(2);
         st.add(1);
+        st.add(1);
 
-        LinkedList<Integer> pa = st.pairs();
-        pa.display();
+
+        LLArrays<Integer> myArray = new LLArrays<>();
+
+       myArray.display(myArray.getAfter(st,4));
+
+
+
     }
 }
 
