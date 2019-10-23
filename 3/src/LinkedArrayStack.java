@@ -27,11 +27,9 @@ public class LinkedArrayStack<T>  {
             this.top=newNode;
         }else{
             LinearNode<T> counter=top;
-            while(counter.getNext()!=null){
-                counter=counter.getNext();
+            newNode.setNext(top);
+            this.top=newNode;
             }
-            counter.setNext(newNode);
-        }
         size++;
     }
 
@@ -45,12 +43,11 @@ public class LinkedArrayStack<T>  {
             return el;
 
         }
-        LinearNode<T> counter=top;
-        while(counter.getNext().getNext()!=null){
-            counter=counter.getNext();
-        }
-        LinearNode<T> out = counter.getNext();
-        counter.setNext(null);
+
+
+        LinearNode<T> ntop = top.getNext();
+        LinearNode<T> out = top;
+        this.top=ntop;
         return out.getElement();
     }
 
@@ -66,11 +63,8 @@ public class LinkedArrayStack<T>  {
         if (isEmpty()) {
             throw new EmptyCollectionException("Stack");
         }
-        LinearNode<T> counter=top;
-        for(int i =0;i<size-1;i++){
-            counter=counter.getNext();
-        }
-        return counter.getElement();
+
+        return top.getElement();
     }
 
     public int size() {

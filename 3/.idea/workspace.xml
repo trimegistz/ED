@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4d05c7a-8132-46d6-b7d4-7e414d470bba" name="Default Changelist" comment="arrayStack v1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/postFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4/src/EmptyQueueException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4/src/LinearNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4/src/LinkedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../4/src/QueueADT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/postFix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/postFix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,27 +21,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LinkedArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="190">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkedArrayStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/postFix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="161">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
               <folding>
+                <element signature="method#postfix#0;class#postFix#0" />
                 <element signature="e#152#161#0" expanded="true" />
               </folding>
             </state>
@@ -71,10 +67,10 @@
         <option value="$PROJECT_DIR$/src/EmptyCollectionException.java" />
         <option value="$PROJECT_DIR$/src/StackADT.java" />
         <option value="$PROJECT_DIR$/src/LinearNode.java" />
-        <option value="$PROJECT_DIR$/src/LinkedArrayStack.java" />
         <option value="$PROJECT_DIR$/src/postFixArray.java" />
         <option value="$PROJECT_DIR$/src/ArrayStack.java" />
         <option value="$PROJECT_DIR$/src/postFix.java" />
+        <option value="$PROJECT_DIR$/src/LinkedArrayStack.java" />
       </list>
     </option>
   </component>
@@ -176,7 +172,7 @@
       <workItem from="1571667753248" duration="2721000" />
       <workItem from="1571750952416" duration="4734000" />
       <workItem from="1571831746771" duration="242000" />
-      <workItem from="1571833947289" duration="2817000" />
+      <workItem from="1571833947289" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="arrayStack v1">
       <created>1571752650352</created>
@@ -196,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13405000" />
+    <option name="totallyTimeSpent" value="14749000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1368" height="768" extended-state="6" />
@@ -262,27 +258,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/postFix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="method#postfix#0;class#postFix#0" />
+            <element signature="e#152#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="124" column="27" lean-forward="true" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
+        <state relative-caret-position="190">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/postFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="e#152#161#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="259">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
         </state>
       </provider>
     </entry>
