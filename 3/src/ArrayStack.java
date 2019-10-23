@@ -122,7 +122,7 @@ public class ArrayStack<T>  {
     @Override
     public String toString() {
         StringBuilder strBuild = new StringBuilder();
-        for (int i = 0; i <= this.top-1; i++) {
+        for (int i = 0; i < this.top; i++) {
             strBuild.append(this.stack[i].toString() + "\n");
         }
 
