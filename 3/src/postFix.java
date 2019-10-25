@@ -3,6 +3,7 @@ import java.lang.reflect.Array;
 public class postFix {
 
 
+    //Both functions work the same
     public static int calculator(String calculations) throws EmptyCollectionException{
         ArrayStack<Integer> array =new ArrayStack<Integer>();
 

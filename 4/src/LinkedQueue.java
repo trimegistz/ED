@@ -1,45 +1,45 @@
 public class LinkedQueue<T> implements QueueADT<T>
 {
 
-    public LinearNode<T> first;
+    public LinearNode<T> rear,front;
     public int size;
 
     public LinkedQueue(){
         this.size=0;
-        this.first=null;
+        this.rear=null;
+        this.front=null;
     }
 
 
     public void enqueue(T element){
         LinearNode<T> newNode = new LinearNode<>(element);
-        if(size!=0)
-            newNode.setNext(this.first);
-        this.first=newNode;
+
+        if(size==0)
+            this.front=newNode;
+        else
+            rear.setNext(newNode);
+
+        this.rear=newNode;
         size++;
     }
 
 
     public T dequeue() throws EmptyQueueException{
         if (isEmpty()) throw new EmptyQueueException("Queue is empty");
-        LinearNode<T> counter = this.first;
-        while(counter.getNext().getNext()!=null){
-            counter=counter.getNext();
-        }
-        LinearNode<T> byeNode = counter.getNext();
-        counter.setNext(null);
+
+        T returnable= front.getElement();
+
+        front = front.getNext();
         size--;
-        return byeNode.getElement();
+        return returnable;
 
     }
 
 
     public T first() throws EmptyQueueException{
         if (isEmpty()) throw new EmptyQueueException("Queue is empty");
-        LinearNode<T> counter = this.first;
-        while(counter.getNext()!=null){
-            counter=counter.getNext();
-        }
-        return counter.getElement();
+
+        return front.getElement();
     }
 
 
@@ -56,7 +56,7 @@ public class LinkedQueue<T> implements QueueADT<T>
     @Override
     public String toString(){
         if (isEmpty()) return "Queue is empty";
-        LinearNode<T> counter = this.first;
+        LinearNode<T> counter = this.front;
         String s = "";
         while(counter!=null){
             s+= "\n" +counter.getElement();
@@ -74,8 +74,6 @@ public class LinkedQueue<T> implements QueueADT<T>
         myQueue.enqueue(12);
 
         try {
-            System.out.println(myQueue.dequeue());
-            System.out.println(myQueue.dequeue());
             System.out.println(myQueue.dequeue());
             System.out.println(myQueue.toString());
 
