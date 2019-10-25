@@ -35,11 +35,14 @@ public class LinkedQueue<T> implements QueueADT<T>
 
     }
 
-
     public T first() throws EmptyQueueException{
         if (isEmpty()) throw new EmptyQueueException("Queue is empty");
 
         return front.getElement();
+    }
+
+    public LinearNode<T> getBeginning(){
+        return front;
     }
 
 
@@ -64,6 +67,8 @@ public class LinkedQueue<T> implements QueueADT<T>
         }
         return s;
     }
+
+
 
 
     public static void main(String args[]){
